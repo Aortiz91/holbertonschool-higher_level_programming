@@ -6,8 +6,11 @@ if number < 0:
 else:
     number2 = number
 if (number2 % 10) > 5:
-    print("Last digit of {:d} is {:d}".format(number, (number2 % 10)), "and is greather than 5")
+    print("Last digit of {:d} is {:d}".format(number, (number2 % 10)), "a\
+            nd is greather than 5")
 elif (number2 % 10) == 0:
-    print("Last digit of {:d} is {:d}".format(number, (number2 % 10)), "and is 0")
+    print("Last digit of {:d} is {:d}".format(number, (number2 % 10)), "a\
+            nd is 0")
 else:
-    print("Last digit of {:d} is {:d}".format(number, (number2 % 10)), "and is less than 6 and not 0")
+    print("Last digit of {:d} is {:d}".format(number, (number2 % 10)), "a\
+            nd is less than 6 and not 0")
