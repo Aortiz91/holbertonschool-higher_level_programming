@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-if __name__ == "__main__":
+export $PYTHONPATH:$PYTHONPATH:\Users\3283\Downloads
+ if __name__ == "__main__":
     from sys import argv
     a = len(argv)
     b = 0
