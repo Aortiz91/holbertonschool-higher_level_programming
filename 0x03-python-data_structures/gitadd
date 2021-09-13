@@ -1,0 +1,4 @@
+#!/bin/bash
+git add .
+git commit "0x03. Python - Data Structures: Lists, Tuples"
+git push
