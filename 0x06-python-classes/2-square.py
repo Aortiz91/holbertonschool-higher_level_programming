@@ -5,7 +5,6 @@
 class Square():
     """Definition of class"""
     def __init__(self, size=0):
-        """Initializing self size"""
         if (isinstance(size, int) == False):
             raise TypeError ("size must be an integer")
         elif (size < 0):
