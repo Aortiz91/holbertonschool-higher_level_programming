@@ -8,4 +8,4 @@ class Square():
     def __init__(self, size):
         """initializing self"""
 
-        lf.__size = size
+        self.__size = size
