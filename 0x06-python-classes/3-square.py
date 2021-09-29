@@ -4,6 +4,7 @@
 
 class Square():
     """Defining class Square"""
+
     def __init__(self, size=0):
         """Initializing self size"""
         if (isinstance(size, int) == False):
@@ -15,4 +16,5 @@ class Square():
              
     def area(self):
         """Defining self area"""
+
         return (self.__size * self.__size)
