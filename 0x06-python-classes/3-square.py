@@ -4,10 +4,9 @@
 
 class Square():
     """Defining class Square"""
-
     def __init__(self, size=0):
         """Initializing self size"""
-        if (isinstance(size, int) == False):
+        if not (isinstance(size, int):
             raise TypeError("size must be an integer")
         elif (size < 0):
             raise ValueError("size must be >= 0")
