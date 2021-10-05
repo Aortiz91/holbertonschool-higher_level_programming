@@ -4,12 +4,12 @@
 
 class Rectangle:
     """Constructor with Rectangle's width and height"""
-   
+
     def __init__(self, width=0, height=0):
         """initializing instance"""
         self.__width = width
         self.__height = height
-        
+
     @property
     def width(self):
         """Retrieves instance Rectangle's width"""
@@ -18,7 +18,7 @@ class Rectangle:
     @width.setter
     def width(self, value):
         """Sets instance Rectangle's width
-        
+
         Args:
             value: width value, must be type int and positive
         """
