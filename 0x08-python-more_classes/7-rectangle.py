@@ -6,7 +6,7 @@ class Rectangle:
     """Constructor with Rectangle's width and height"""
 
     number_of_instances = 0
-    print_symbol = '#'
+    print_symbol = "#"
 
     def __init__(self, width=0, height=0):
         """initializing instance"""
@@ -71,13 +71,12 @@ class Rectangle:
     def __str__(self):
         """Return string"""
         if self.__height == 0 or self.__width == 0:
-            return ''
-        string = ''
+            return ""
+        string = ""
         for i in range(self.__height):
             for j in range(self.__width):
                 string += str(self.print_symbol)
             string += '\n'
-        string = ''
         return string[:-1]
 
     def __repr__(self):
