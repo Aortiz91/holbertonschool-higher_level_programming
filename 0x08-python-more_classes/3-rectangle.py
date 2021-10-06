@@ -57,7 +57,7 @@ class Rectangle:
         return (self.__width + self.__height) * 2
 
     def __str__(self):
-        """Return string"""
+        """Method called to return string"""
         if self.__height == 0 or self.__width == 0:
             return ''
         string = ''
@@ -65,4 +65,4 @@ class Rectangle:
             for j in range(self.__width):
                 string += '#'
             string += '\n'
-        return string[:-1]
+        return string[:]
