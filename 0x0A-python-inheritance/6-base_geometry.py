@@ -6,7 +6,7 @@ class BaseGeometry():
     """Defines a class BaseGeometry"""
 
     def area(self):
-        """Public instance method area tjat 
+        """Public instance method area that
         is not implemented"""
 
         raise Exception('area() is not implemented')
