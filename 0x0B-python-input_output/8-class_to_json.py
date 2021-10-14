@@ -5,9 +5,6 @@ an object
 """
 
 
-import json
-
-
 def class_to_json(obj):
     """ Createds dictionary description of a specified object
 
