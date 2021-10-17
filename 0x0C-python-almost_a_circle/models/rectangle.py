@@ -124,14 +124,16 @@ class Rectangle(Base):
             - x
             - y
         """
+        index = 0
         for arg in args:
-            if (args[0]):
-                self.id = args[0]
-            elif (args[1]):
-                self.width = args[1]
-            elif (args[2]):
-                self.height = args[2]
-            elif (args[3]):
-                self.x = args[3]
-            elif (args[4]):
-                self.y = args[4]
+            if index == 0:
+                self.id = arg
+            elif index == 1:
+                self.width = arg
+            elif index == 2:
+                self.height = arg
+            elif index == 3:
+                self.x = arg
+            elif index == 4:
+                self.y = arg
+            index += 1
