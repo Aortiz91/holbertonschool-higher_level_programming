@@ -18,8 +18,8 @@ if __name__ == "__main__":
     # Creates cursor object to perform SQL operations
     cursor = db.cursor()
     # Run SQL query
-    cursor.execute("SELECT * FROM states WHERE name = '{name}' ORDER BY id ASC"
-                   .format(name=argv[4]))
+    cursor.execute("SELECT * FROM states WHERE name LIKE BINARY '{name}'\
+                   ORDER BY id ASC".format(name=argv[4]))
     # Extract/read query result
     result = cursor.fetchall()
     for rows in result:
