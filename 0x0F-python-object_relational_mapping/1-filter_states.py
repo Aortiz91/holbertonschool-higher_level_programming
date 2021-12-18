@@ -18,7 +18,7 @@ if __name__ == "__main__":
     # Creates cursor object to perform SQL operations
     cursor = db.cursor()
     # Run SQL query
-    cursor.execute("SELECT * FROM states WHERE name LIKE BINARY 'N%'
+    cursor.execute("SELECT * FROM states WHERE name LIKE BINARY 'N%'\
                    ORDER BY id ASC")
     # Extract/read query result
     result = cursor.fetchall()
