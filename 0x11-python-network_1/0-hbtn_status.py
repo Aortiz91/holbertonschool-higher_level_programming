@@ -3,7 +3,6 @@
 """
 
 
-import urllib
 import urllib.request
 
 if __name__ == "__main__":
@@ -12,4 +11,4 @@ if __name__ == "__main__":
         print("Body response:")
         print('\t- type: {}'.format(type(website)))
         print('\t- content: {}'.format(website))
-        print('\t- utf8 content: {}'.format(website.decode("utf-8")))
+        print('\t- utf8 content: {}'.format(website.decode("utf-8", "replace")))
