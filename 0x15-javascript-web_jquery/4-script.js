@@ -6,4 +6,4 @@ $("#toggle_header").click(function redORgreen () {
         $("header").removeClass("green");
         $("header").addClass("red");
     }
-});
+}) ;
